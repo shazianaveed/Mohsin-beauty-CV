@@ -1,0 +1,51 @@
+.id2{
+    color: purple; 
+}
+h3{
+    color: purple;
+    font-size: large;
+}
+.id{
+ background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL2hpcHBvdW5pY29ybl9jb3NtZXRpY19tYWtlX3VwX2ZsYXRfbGF5X3BpbmtfYmFja2dyb3VuZF9iODQxY2U1MC1mNDRhLTQ4ODAtODEwMC1hMDc5Yjc4MjA3NDUuanBn.jpg
+ );
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+li{
+    color: plum;
+}
+p{
+    color: plum;
+}  
+
+
+
+/* Media query for mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .id {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p, li {
+        font-size: 0.8em;
+    }
+
+    .id2 {
+        text-align: center;
+    }
+}
